@@ -1,0 +1,64 @@
+7월 25, 2016 9:58:16 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+7월 25, 2016 9:58:16 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+7월 25, 2016 9:58:16 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+7월 25, 2016 9:58:21 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 25, 2016 9:58:21 오전 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 25, 2016 9:58:21 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@ad1f9b6')
+7월 25, 2016 9:59:30 오전 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextDestroyed()
+7월 25, 2016 9:59:30 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextDestroyed()
+7월 25, 2016 9:59:31 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+7월 25, 2016 9:59:31 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+7월 25, 2016 10:00:16 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 25, 2016 10:00:16 오전 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 25, 2016 10:00:16 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@58fd1503')
+7월 25, 2016 10:17:45 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+7월 25, 2016 10:17:45 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+7월 25, 2016 10:17:46 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+7월 25, 2016 10:18:38 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+7월 25, 2016 10:18:38 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+7월 25, 2016 10:18:38 오전 org.apache.catalina.core.StandardContext listenerStop
+심각: Exception sending context destroyed event to listener instance of class org.springframework.web.context.ContextLoaderListener
+java.lang.NoClassDefFoundError: org/springframework/web/context/ContextCleanupListener
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:117)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5146)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5810)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1562)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1488)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.context.ContextCleanupListener
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1891)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1734)
+	... 16 more
+
+7월 25, 2016 8:49:20 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextDestroyed()
+7월 25, 2016 8:49:20 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextDestroyed()

@@ -1,0 +1,20 @@
+7월 27, 2016 9:44:13 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 27, 2016 9:44:13 오전 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 27, 2016 9:44:13 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@642a2feb')
+7월 27, 2016 10:18:34 오전 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextDestroyed()
+7월 27, 2016 10:18:34 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextDestroyed()
+7월 27, 2016 10:19:51 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 27, 2016 10:19:51 오전 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 27, 2016 10:19:51 오전 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@bc941f4')
+7월 27, 2016 10:53:53 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextDestroyed()
+7월 27, 2016 10:53:53 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextDestroyed()

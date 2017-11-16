@@ -1,0 +1,22 @@
+12월 29, 2016 8:51:22 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Fingerprint cleanup
+12월 29, 2016 8:51:22 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Fingerprint cleanup. 1 ms
+12월 29, 2016 3:06:00 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Workspace clean-up
+12월 29, 2016 3:06:00 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Workspace clean-up. 3 ms
+12월 29, 2016 11:21:06 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Download metadata
+12월 29, 2016 11:21:13 오후 hudson.model.UpdateSite updateData
+정보: Obtained the latest update center data file for UpdateSource default
+12월 29, 2016 11:21:15 오후 hudson.model.DownloadService$Downloadable load
+정보: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+12월 29, 2016 11:21:16 오후 hudson.model.DownloadService$Downloadable load
+정보: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+12월 29, 2016 11:21:17 오후 hudson.model.DownloadService$Downloadable load
+정보: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+12월 29, 2016 11:21:19 오후 hudson.model.DownloadService$Downloadable load
+정보: Obtained the updated data file for hudson.tools.JDKInstaller
+12월 29, 2016 11:21:19 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Download metadata. 13,009 ms

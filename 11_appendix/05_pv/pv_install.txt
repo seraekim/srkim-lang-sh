@@ -1,0 +1,24 @@
+1. gcc, make check
+
+$ gcc --version
+$ make --version
+
+if command not found
+# yum install gcc
+# yum install make
+
+2. download pv
+$ curl -O http://www.ivarch.com/programs/sources/pv-1.6.0.tar.gz
+$ tar xvzf pv-1.6.0.tar.gz
+$ cd pv-1.6.0
+$ ./configure
+$ make
+$ su -
+# make install
+
+3. option
+speficify where to install (default : /usr/local
+$ ./configure --prefix=$HOME/local
+
+4. confirm
+$ pv --version

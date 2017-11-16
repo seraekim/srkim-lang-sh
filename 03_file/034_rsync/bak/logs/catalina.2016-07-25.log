@@ -1,0 +1,392 @@
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server version:        Apache Tomcat/7.0.70
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server built:          Jun 15 2016 16:27:45 UTC
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server number:         7.0.70.0
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Name:               Linux
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Version:            3.10.0-327.13.1.el7.x86_64
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Architecture:          amd64
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Java Home:             /usr/java/jdk1.7.0_79/jre
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Version:           1.7.0_79-b15
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Vendor:            Oracle Corporation
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_BASE:         /home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_HOME:         /home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.config.file=/home/srkim/web/apache-tomcat-7.0.70/conf/logging.properties
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dfile.encoding=UTF-8
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xms128m
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xmx1024m
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -XX:PermSize=128m
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -XX:MaxPermSize=512m
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xms256m
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xmx256m
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.endorsed.dirs=/home/srkim/web/apache-tomcat-7.0.70/endorsed
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.base=/home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.home=/home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.io.tmpdir=/home/srkim/web/apache-tomcat-7.0.70/temp
+7월 25, 2016 9:58:06 오전 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+7월 25, 2016 9:58:06 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 9:58:06 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 574 ms
+7월 25, 2016 9:58:06 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+7월 25, 2016 9:58:06 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.70
+7월 25, 2016 9:58:06 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deploying web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/jenkins.war
+7월 25, 2016 9:58:10 오전 org.apache.catalina.deploy.WebXml setVersion
+경고: Unknown version string [3.1]. Default version will be used.
+7월 25, 2016 9:58:13 오전 org.apache.catalina.startup.ContextConfig validateSecurityRoles
+경고: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+7월 25, 2016 9:58:13 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 25, 2016 9:58:14 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deployment of web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/jenkins.war has finished in 7,489 ms
+7월 25, 2016 9:58:14 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deploying web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/spring-mvc-showcase.war
+7월 25, 2016 9:58:14 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Started initialization
+7월 25, 2016 9:58:14 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Listed all plugins
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-cps: One or more dependencies could not be resolved for workflow-cps : workflow-support (2.1)
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-cps-global-lib: One or more dependencies could not be resolved for workflow-cps-global-lib : workflow-cps (1.15)
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install pipeline-build-step: One or more dependencies could not be resolved for pipeline-build-step : workflow-support (1.15)
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install pipeline-input-step: One or more dependencies could not be resolved for pipeline-input-step : workflow-support (1.15)
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install pipeline-rest-api: One or more dependencies could not be resolved for pipeline-rest-api : workflow-job (1.14)
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-durable-task-step: One or more dependencies could not be resolved for workflow-durable-task-step : workflow-support (2.1)
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-multibranch: One or more dependencies could not be resolved for workflow-multibranch : workflow-cps (2.3), workflow-job (1.15)
+7월 25, 2016 9:58:14 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-aggregator: One or more dependencies could not be resolved for workflow-aggregator : workflow-support (2.1), workflow-cps (2.6), pipeline-stage-step (2.1), pipeline-stage-view (1.4), workflow-cps-global-lib (2.0), pipeline-input-step (2.0), workflow-basic-steps (2.0), workflow-multibranch (2.8), workflow-job (2.3), workflow-durable-task-step (2.2), pipeline-build-step (2.1)
+7월 25, 2016 9:58:16 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 25, 2016 9:58:19 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deployment of web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/spring-mvc-showcase.war has finished in 5,477 ms
+7월 25, 2016 9:58:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/ROOT
+7월 25, 2016 9:58:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/ROOT has finished in 66 ms
+7월 25, 2016 9:58:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/docs
+7월 25, 2016 9:58:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/docs has finished in 56 ms
+7월 25, 2016 9:58:19 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/examples
+7월 25, 2016 9:58:20 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Prepared all plugins
+7월 25, 2016 9:58:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/examples has finished in 1,471 ms
+7월 25, 2016 9:58:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/host-manager
+7월 25, 2016 9:58:21 오전 hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+정보: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+7월 25, 2016 9:58:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/host-manager has finished in 92 ms
+7월 25, 2016 9:58:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/manager
+7월 25, 2016 9:58:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/manager has finished in 50 ms
+7월 25, 2016 9:58:21 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 9:58:21 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 9:58:21 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 15089 ms
+7월 25, 2016 9:58:21 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Started all plugins
+7월 25, 2016 9:58:21 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Augmented all extensions
+7월 25, 2016 9:58:21 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Loaded all jobs
+7월 25, 2016 9:58:21 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Download metadata
+7월 25, 2016 9:58:22 오전 org.jenkinsci.main.modules.sshd.SSHD start
+정보: Started SSHD at port 33529
+7월 25, 2016 9:58:22 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Completed initialization
+7월 25, 2016 9:58:22 오전 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+정보: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@4a7bc1bf: display name [Root WebApplicationContext]; startup date [Mon Jul 25 09:58:22 KST 2016]; root of context hierarchy
+7월 25, 2016 9:58:22 오전 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+정보: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@4a7bc1bf]: org.springframework.beans.factory.support.DefaultListableBeanFactory@65bf0fcb
+7월 25, 2016 9:58:22 오전 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+정보: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@65bf0fcb: defining beans [authenticationManager]; root of factory hierarchy
+7월 25, 2016 9:58:22 오전 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+정보: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@22aca7d3: display name [Root WebApplicationContext]; startup date [Mon Jul 25 09:58:22 KST 2016]; root of context hierarchy
+7월 25, 2016 9:58:22 오전 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+정보: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@22aca7d3]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5b8b6af7
+7월 25, 2016 9:58:22 오전 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+정보: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5b8b6af7: defining beans [filter,legacy]; root of factory hierarchy
+7월 25, 2016 9:58:22 오전 hudson.WebAppMain$3 run
+정보: Jenkins is fully up and running
+7월 25, 2016 9:58:22 오전 hudson.model.DownloadService$Downloadable load
+정보: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+7월 25, 2016 9:58:22 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Download metadata. 1,140 ms
+7월 25, 2016 9:59:30 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+7월 25, 2016 9:59:30 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 9:59:30 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 9:59:30 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+7월 25, 2016 9:59:30 오전 jenkins.model.Jenkins cleanUp
+정보: Stopping Jenkins
+7월 25, 2016 9:59:30 오전 jenkins.model.Jenkins$21 onAttained
+정보: Started termination
+7월 25, 2016 9:59:30 오전 jenkins.model.Jenkins$21 onAttained
+정보: Completed termination
+7월 25, 2016 9:59:30 오전 jenkins.model.Jenkins _cleanUpDisconnectComputers
+정보: Starting node disconnection
+7월 25, 2016 9:59:31 오전 jenkins.model.Jenkins _cleanUpShutdownPluginManager
+정보: Stopping plugin manager
+7월 25, 2016 9:59:31 오전 jenkins.model.Jenkins _cleanUpPersistQueue
+정보: Persisting build queue
+7월 25, 2016 9:59:31 오전 jenkins.model.Jenkins _cleanUpAwaitDisconnects
+정보: Waiting for node disconnection completion
+7월 25, 2016 9:59:31 오전 jenkins.model.Jenkins cleanUp
+정보: Jenkins stopped
+7월 25, 2016 9:59:31 오전 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+심각: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#3]] but has failed to stop it. This is very likely to create a memory leak.
+7월 25, 2016 9:59:31 오전 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+심각: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7dd6d395]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+7월 25, 2016 9:59:31 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 9:59:31 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 9:59:31 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 9:59:31 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server version:        Apache Tomcat/7.0.70
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server built:          Jun 15 2016 16:27:45 UTC
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Server number:         7.0.70.0
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Name:               Linux
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Version:            3.10.0-327.13.1.el7.x86_64
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Architecture:          amd64
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Java Home:             /usr/java/jdk1.7.0_79/jre
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Version:           1.7.0_79-b15
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: JVM Vendor:            Oracle Corporation
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_BASE:         /home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: CATALINA_HOME:         /home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.config.file=/home/srkim/web/apache-tomcat-7.0.70/conf/logging.properties
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dfile.encoding=UTF-8
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xms128m
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xmx1024m
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -XX:PermSize=128m
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -XX:MaxPermSize=512m
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xms256m
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Xmx256m
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.endorsed.dirs=/home/srkim/web/apache-tomcat-7.0.70/endorsed
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.base=/home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Dcatalina.home=/home/srkim/web/apache-tomcat-7.0.70
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.VersionLoggerListener log
+정보: Command line argument: -Djava.io.tmpdir=/home/srkim/web/apache-tomcat-7.0.70/temp
+7월 25, 2016 10:00:13 오전 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+7월 25, 2016 10:00:13 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 10:00:13 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 512 ms
+7월 25, 2016 10:00:13 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+7월 25, 2016 10:00:13 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.70
+7월 25, 2016 10:00:13 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deploying web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/jenkins.war
+7월 25, 2016 10:00:13 오전 org.apache.catalina.deploy.WebXml setVersion
+경고: Unknown version string [3.1]. Default version will be used.
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.ContextConfig validateSecurityRoles
+경고: Security role name ** used in an <auth-constraint> without being defined in a <security-role>
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deployment of web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/jenkins.war has finished in 3,245 ms
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/ROOT
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/ROOT has finished in 46 ms
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/docs
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/docs has finished in 69 ms
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/examples
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/examples has finished in 293 ms
+7월 25, 2016 10:00:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/host-manager
+7월 25, 2016 10:00:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/host-manager has finished in 77 ms
+7월 25, 2016 10:00:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/manager
+7월 25, 2016 10:00:17 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Started initialization
+7월 25, 2016 10:00:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /home/srkim/web/apache-tomcat-7.0.70/webapps/manager has finished in 101 ms
+7월 25, 2016 10:00:17 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 10:00:17 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 10:00:17 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 4024 ms
+7월 25, 2016 10:00:17 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Listed all plugins
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-cps: One or more dependencies could not be resolved for workflow-cps : workflow-support (2.1)
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-cps-global-lib: One or more dependencies could not be resolved for workflow-cps-global-lib : workflow-cps (1.15)
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install pipeline-build-step: One or more dependencies could not be resolved for pipeline-build-step : workflow-support (1.15)
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install pipeline-input-step: One or more dependencies could not be resolved for pipeline-input-step : workflow-support (1.15)
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install pipeline-rest-api: One or more dependencies could not be resolved for pipeline-rest-api : workflow-job (1.14)
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-durable-task-step: One or more dependencies could not be resolved for workflow-durable-task-step : workflow-support (2.1)
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-multibranch: One or more dependencies could not be resolved for workflow-multibranch : workflow-cps (2.3), workflow-job (1.15)
+7월 25, 2016 10:00:17 오전 hudson.PluginManager$2$1$1 run
+심각: Failed to install workflow-aggregator: One or more dependencies could not be resolved for workflow-aggregator : workflow-support (2.1), workflow-cps (2.6), pipeline-stage-step (2.1), pipeline-stage-view (1.4), workflow-cps-global-lib (2.0), pipeline-input-step (2.0), workflow-basic-steps (2.0), workflow-multibranch (2.8), workflow-job (2.3), workflow-durable-task-step (2.2), pipeline-build-step (2.1)
+7월 25, 2016 10:00:20 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Prepared all plugins
+7월 25, 2016 10:00:20 오전 hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+정보: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+7월 25, 2016 10:00:20 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Started all plugins
+7월 25, 2016 10:00:20 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Augmented all extensions
+7월 25, 2016 10:00:21 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Loaded all jobs
+7월 25, 2016 10:00:21 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Download metadata
+7월 25, 2016 10:00:21 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Download metadata. 20 ms
+7월 25, 2016 10:00:21 오전 org.jenkinsci.main.modules.sshd.SSHD start
+정보: Started SSHD at port 57702
+7월 25, 2016 10:00:21 오전 jenkins.InitReactorRunner$1 onAttained
+정보: Completed initialization
+7월 25, 2016 10:00:21 오전 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+정보: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@5bc01979: display name [Root WebApplicationContext]; startup date [Mon Jul 25 10:00:21 KST 2016]; root of context hierarchy
+7월 25, 2016 10:00:21 오전 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+정보: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@5bc01979]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5ae2f193
+7월 25, 2016 10:00:21 오전 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+정보: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5ae2f193: defining beans [authenticationManager]; root of factory hierarchy
+7월 25, 2016 10:00:21 오전 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+정보: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@1383fbab: display name [Root WebApplicationContext]; startup date [Mon Jul 25 10:00:21 KST 2016]; root of context hierarchy
+7월 25, 2016 10:00:21 오전 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+정보: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@1383fbab]: org.springframework.beans.factory.support.DefaultListableBeanFactory@36f02403
+7월 25, 2016 10:00:21 오전 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+정보: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@36f02403: defining beans [filter,legacy]; root of factory hierarchy
+7월 25, 2016 10:00:22 오전 hudson.WebAppMain$3 run
+정보: Jenkins is fully up and running
+7월 25, 2016 10:17:44 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deploying web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/spring-mvc-showcase.war
+7월 25, 2016 10:17:45 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 25, 2016 10:17:47 오전 org.apache.catalina.startup.HostConfig deployWAR
+정보: Deployment of web application archive /home/srkim/web/apache-tomcat-7.0.70/webapps/spring-mvc-showcase.war has finished in 3,276 ms
+7월 25, 2016 10:17:48 오전 hudson.model.Run execute
+정보: spring-mvc-showcase-job #5 main build action completed: SUCCESS
+7월 25, 2016 10:18:38 오전 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/spring-mvc-showcase]
+7월 25, 2016 6:41:35 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Workspace clean-up
+7월 25, 2016 6:41:35 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Workspace clean-up. 46 ms
+7월 25, 2016 8:49:19 오후 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 8:49:20 오후 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 8:49:20 오후 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+7월 25, 2016 8:49:21 오후 jenkins.model.Jenkins cleanUp
+정보: Stopping Jenkins
+7월 25, 2016 8:49:22 오후 jenkins.model.Jenkins$21 onAttained
+정보: Started termination
+7월 25, 2016 8:49:22 오후 jenkins.model.Jenkins$21 onAttained
+정보: Completed termination
+7월 25, 2016 8:49:22 오후 jenkins.model.Jenkins _cleanUpDisconnectComputers
+정보: Starting node disconnection
+7월 25, 2016 8:49:23 오후 jenkins.model.Jenkins _cleanUpShutdownPluginManager
+정보: Stopping plugin manager
+7월 25, 2016 8:49:23 오후 jenkins.model.Jenkins _cleanUpPersistQueue
+정보: Persisting build queue
+7월 25, 2016 8:49:23 오후 jenkins.model.Jenkins _cleanUpAwaitDisconnects
+정보: Waiting for node disconnection completion
+7월 25, 2016 8:49:23 오후 jenkins.model.Jenkins cleanUp
+정보: Jenkins stopped
+7월 25, 2016 8:49:23 오후 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+심각: The web application [/jenkins] appears to have started a thread named [Computer.threadPoolForRemoting [#3]] but has failed to stop it. This is very likely to create a memory leak.
+7월 25, 2016 8:49:23 오후 org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+심각: The web application [/jenkins] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7a9d5ff]) and a value of type [org.acegisecurity.context.SecurityContextImpl] (value [org.acegisecurity.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+7월 25, 2016 8:49:23 오후 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 8:49:23 오후 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-bio-8009"]
+7월 25, 2016 8:49:23 오후 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-bio-8080"]
+7월 25, 2016 8:49:23 오후 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-bio-8009"]

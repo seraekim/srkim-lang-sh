@@ -1,0 +1,62 @@
+7월 23, 2016 5:17:34 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 23, 2016 5:17:34 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 23, 2016 5:17:34 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@529369ed')
+7월 23, 2016 5:18:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextDestroyed()
+7월 23, 2016 5:18:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextDestroyed()
+7월 23, 2016 5:19:23 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 23, 2016 5:19:23 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 23, 2016 5:19:23 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3a8389d8')
+7월 23, 2016 5:20:54 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+7월 23, 2016 5:20:54 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+7월 23, 2016 5:20:54 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+7월 23, 2016 5:29:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+7월 23, 2016 5:29:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+7월 23, 2016 5:29:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+7월 23, 2016 5:29:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 23, 2016 5:29:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 23, 2016 5:29:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@44464460')
+7월 23, 2016 5:29:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextDestroyed()
+7월 23, 2016 5:29:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextDestroyed()
+7월 23, 2016 5:29:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+7월 23, 2016 5:29:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+7월 23, 2016 5:30:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+7월 23, 2016 5:30:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+7월 23, 2016 5:30:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+7월 23, 2016 5:30:30 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+7월 23, 2016 5:30:30 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+7월 23, 2016 5:30:30 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2b928099')
+7월 23, 2016 5:39:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextDestroyed()
+7월 23, 2016 5:39:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextDestroyed()
+7월 23, 2016 5:39:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+7월 23, 2016 5:39:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext

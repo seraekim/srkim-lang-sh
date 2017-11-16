@@ -1,0 +1,6 @@
+12월 27, 2016 11:21:00 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: contextInitialized()
+12월 27, 2016 11:21:00 오후 org.apache.catalina.core.ApplicationContext log
+정보: SessionListener: contextInitialized()
+12월 27, 2016 11:21:00 오후 org.apache.catalina.core.ApplicationContext log
+정보: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6bd3bd6a')

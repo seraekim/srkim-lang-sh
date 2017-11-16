@@ -1,0 +1,12 @@
+12월 28, 2016 8:51:22 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Fingerprint cleanup
+12월 28, 2016 8:51:22 오전 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Fingerprint cleanup. 3 ms
+12월 28, 2016 3:06:00 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Workspace clean-up
+12월 28, 2016 3:06:00 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Workspace clean-up. 128 ms
+12월 28, 2016 11:21:06 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Started Download metadata
+12월 28, 2016 11:21:06 오후 hudson.model.AsyncPeriodicWork$1 run
+정보: Finished Download metadata. 3 ms
